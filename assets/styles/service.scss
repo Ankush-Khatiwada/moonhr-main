@@ -1,0 +1,158 @@
+
+.banner{
+    height: 40px;
+    background-color: #484545;
+    color:white;
+  p{
+    color: aliceblue;
+    text-align: right;
+    padding-top: 5px;
+  }
+  span{
+    margin-left: 30px;
+  }
+  }
+  .navbar{
+    position:fixed;
+    margin-top:35px;
+    background-color: #F1F1F1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 3px solid #E48F51;
+    .nav-link{
+     margin-left:4rem;
+     color:#161D82;
+     font-family: open sans;
+     
+   }
+   
+    
+  }
+   .myservice{
+     margin-top: 140px;
+     h1{
+      box-sizing: border-box;
+      color: #161D82;
+      font-family: Helvetica Neue;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38.4px;
+      margin-bottom: 8px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 30px;
+      position: relative;
+      text-align:center;
+      text-transform:uppercase;
+    }
+      
+        h1::after {
+          content: "";
+          width: 100px;
+          position: absolute;
+          margin: 0 auto;
+          height: 3px;
+          background-color: rgb(72, 69, 69); 
+          left: 0;
+          right: 0;
+          bottom: -10px;
+  
+        }
+        .activities{
+          margin-top:5rem ;
+        }
+        .iconss{
+          margin-top:5rem ;
+          margin-bottom: 5rem;
+          .icon1{
+            margin-top:4rem ;
+          }
+        }
+     
+     .flip-card {
+      background-color: transparent;
+      width: 100%;
+      height: 200px;
+      margin-top: 30px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+    
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+    }
+    
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+    
+    /* Style the back side */
+    .flip-card-back {
+      background-color: dodgerblue;
+      color: white;
+      transform: rotateY(180deg);
+    }
+   }
+   .footer{
+    background-color: #E48F51;
+ 
+   padding-top: 40px;
+   hr{
+     background-color: #ddd;
+   }
+   .text-center{
+     color: #ddd;
+     font-family: Rokkitt;
+     padding-bottom: 25px;
+   }
+    .col-md-4{
+      .qr{
+        font-size: 26px;
+        i{
+          margin-left: 20px;
+          color:white;
+        }
+      }
+      h6{
+        color:#161D82;
+        font-family: Rokkitt;
+        padding-bottom: 10px;
+      }
+      p{
+        color: #ddd;
+        font-size: 14px;
+        font-family: Rokkitt;
+        text-align: center;
+      }
+      a{
+       color: #ddd;
+       font-size: 14px;
+       font-family: Rokkitt;
+      }
+     
+ 
+    }
+   }
+ 

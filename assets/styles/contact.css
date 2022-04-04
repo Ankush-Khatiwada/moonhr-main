@@ -1,0 +1,102 @@
+.banner {
+  height: 40px;
+  background-color: #484545;
+  color: white;
+}
+
+.banner p {
+  color: aliceblue;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.banner span {
+  margin-left: 30px;
+}
+
+.navbar {
+  position: fixed;
+  margin-top: 35px;
+  background-color: #F1F1F1;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-bottom: 3px solid #E48F51;
+}
+
+.navbar .nav-link {
+  margin-left: 4rem;
+  color: #161D82;
+  font-family: open sans;
+}
+
+.contact {
+  margin-top: 7rem;
+}
+
+.contact .text-center {
+  font-family: Roboto;
+  margin-bottom: 15px;
+}
+
+.contact .map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.contact .map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contact .label::after {
+  color: white;
+}
+
+.footer {
+  background-color: #E48F51;
+  padding-top: 40px;
+}
+
+.footer hr {
+  background-color: #ddd;
+}
+
+.footer .text-center {
+  color: #ddd;
+  font-family: Rokkitt;
+  padding-bottom: 25px;
+}
+
+.footer .col-md-4 .qr {
+  font-size: 26px;
+}
+
+.footer .col-md-4 .qr i {
+  margin-left: 20px;
+  color: white;
+}
+
+.footer .col-md-4 h6 {
+  color: #161D82;
+  font-family: Rokkitt;
+  padding-bottom: 10px;
+}
+
+.footer .col-md-4 p {
+  color: #ddd;
+  font-size: 14px;
+  font-family: Rokkitt;
+  text-align: center;
+}
+
+.footer .col-md-4 a {
+  color: #ddd;
+  font-size: 14px;
+  font-family: Rokkitt;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,93 @@
+
+.banner{
+    height: 40px;
+    background-color: #484545;
+    color:white;
+  p{
+    color: aliceblue;
+    text-align: right;
+    padding-top: 5px;
+  }
+  span{
+    margin-left: 30px;
+  }
+  }
+  .navbar{
+    position:fixed;
+    margin-top:35px;
+    background-color: #F1F1F1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 3px solid #E48F51;
+    .nav-link{
+     margin-left:4rem;
+     color:#161D82;
+     font-family: open sans;
+     
+   }
+   
+    
+  }
+   .contact{
+       margin-top:7rem;
+       .text-center{
+       font-family: Roboto;
+       margin-bottom: 15px;
+       ;}
+       .map-container-6{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+        .map-container-6 iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        }
+        .label::after{
+            color:white
+        }
+   }
+   
+   .footer{
+    background-color: #E48F51;
+ 
+   padding-top: 40px;
+   hr{
+     background-color: #ddd;
+   }
+   .text-center{
+     color: #ddd;
+     font-family: Rokkitt;
+     padding-bottom: 25px;
+   }
+    .col-md-4{
+      .qr{
+        font-size: 26px;
+        i{
+          margin-left: 20px;
+          color:white;
+        }
+      }
+      h6{
+        color:#161D82;
+        font-family: Rokkitt;
+        padding-bottom: 10px;
+      }
+      p{
+        color: #ddd;
+        font-size: 14px;
+        font-family: Rokkitt;
+        text-align: center;
+      }
+      a{
+       color: #ddd;
+       font-size: 14px;
+       font-family: Rokkitt;
+      }
+     
+ 
+    }
+   }

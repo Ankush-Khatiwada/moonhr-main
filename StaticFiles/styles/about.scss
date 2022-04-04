@@ -1,0 +1,142 @@
+.bannerss{
+margin-top: 80px;
+background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+.detailss
+{ 
+  h2{
+  color: #161D82;
+  font-family: Helvetica Neue;
+font-style: normal;
+font-weight: bold;
+font-size:30px;
+margin-top: 20px;
+margin-bottom:20px;
+}
+h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background-color: rgb(72, 69, 69); 
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  
+
+}
+.imagess{
+  margin-top: 80px;
+}
+}
+.about{
+    height: 40px;
+    background-color: #484545;
+    color:white;
+
+  .detailss{
+    margin-top: 100px;
+  }
+
+  p{
+    color: aliceblue;
+    text-align: right;
+    padding-top: 5px;
+  }
+  span{
+    margin-left: 30px;
+  }
+  }
+  .navbar{
+    position:fixed;
+    margin-top:35px;
+    background-color: #F1F1F1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-bottom: 3px solid #E48F51;
+    .nav-link{
+     margin-left:4rem;
+     color:#161D82;
+     font-family: open sans;
+   }
+   
+    
+  }
+  
+  
+  p{
+    font-family: Roboto;
+    text-align: justify;
+    margin-bottom: 60px;
+    font-family: 20px;
+    
+  }
+  .footer{
+    background-color: #E48F51;
+ 
+   padding-top: 40px;
+   hr{
+     background-color: #ddd;
+   }
+   .text-center{
+     color: #ddd;
+     font-family: Rokkitt;
+     padding-bottom: 25px;
+   }
+    .col-md-4{
+      .qr{
+        font-size: 26px;
+        i{
+          margin-left: 20px;
+          color:white;
+        }
+      }
+      h6{
+        color:rgb(22, 15, 15);
+        font-family: Rokkitt;
+        padding-bottom: 10px;
+      }
+      p{
+        color: #ddd;
+        font-size: 14px;
+        font-family: Rokkitt;
+        text-align: center;
+      }
+      a{
+       color: #ddd;
+       font-size: 14px;
+       font-family: Rokkitt;
+      }
+     
+ 
+    }
+   }
+   @media screen and (min-width: 300px) and (max-width:500px){
+     .img-fluids {
+       margin-top: 20px;
+       height: 500px;
+     }
+     .imagess{
+      padding-top:-30px;
+    }
+    .detailss{
+    h2{
+      font-size:25px;
+      margin-top: -30px;
+    }
+    h2::after {
+      content: "";
+      
+      margin-top: 30px;
+      
+    
+    }
+   }}
+ 
+
+
+
+  
